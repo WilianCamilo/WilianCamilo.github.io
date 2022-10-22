@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Wilian Camilo">
+    <meta name="description" content="Portfólio do desenvolvedor front-end Wilian dos santos Camilo">
+    <meta name="keywords" content="portfolio, html, front-end, desenvolvimento, css, javascript">
+    <title>Wilian Camilo</title>
+    <link rel="icon" href="/imagens/icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style/main.css" />
+    <link rel="stylesheet" href="/Style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="/Style/owl/owl.theme.default.min.css">
+  </head>
+  
+  <body>
+      <header>
+        <nav data-menu="suave">
+          <p><a href="#home">&lsaquo;WC/&rsaquo;</a></p>
+          <button data-menu="button" aria-controls="menu"></button>
+          <ul data-menu="list" id="menu">
+            <a href="#home">
+            <li>Home</li>
+          </a>
+            <a href="#sobre">
+              <li>Sobre</li>
+            </a>
+            <a href="#experiencia">
+            <li>Experiência</li>
+          </a>
+          <a href="#projetos">
+            <li>Projetos</li>
+          </a>
+          </ul>
+        </nav>
+    </header>
+
+    <main>
+      <section class="principal" id="home" >
+        <div class="principal__left">
+          <h1>Olá, eu sou</h1>
+            <span class="principal__sentence"></span>
+            <span class="principal__input-cursor"></span>
+          <h1>Desenvolvedor Front-End</h1>
+          <div class="principal__botao">
+            <a href="https://www.linkedin.com/in/wiliancamilo/" target="_blank">
+              <div class="principal__botao-linkedin">
+                <img src="./assets/linkedin.png" alt="" />
+                <p>Linkedin</p>
+              </div>
+            </a>
+            <a href="https://github.com/WilianCamilo" target="_blank">
+              <div class="principal__botao-github">
+                <img src="./assets/github.png" alt="" />
+                <p>Github</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="principal__right">
+          <img src="/assets/code.png" alt="Ilustração representando uma desenvolvedor sentado na cadeira mexendo no notebook com ambiente em volta." data-tilt>
+        </div>
+        <div class="scroll" data-menu="suave"><a href="#sobre" > <p> scroll down </p> <img src="./assets/scroll.png" alt="Setinha indicando para rolar a tela para baixo"></a></div>
+      </section>
+
+    
+      <section class="sobre-mim" id="sobre" data-anime="js-scroll">
+        <div class="sobre-mim__foto">
+          <img src="./assets/eu.jpg" alt="Uma foto do Wilian Camilo" />
+        </div>
+        <div class="sobre-mim__descricao" >
+          <h1>Sobre mim</h1>
+          <h2>João Pessoa, Paraiba</h2>
+          <p>
+            Olá! Atualmente trabalho como Supervisor de operações e atualmente estou em transição de carreira com dedicação nos estudos para
+            futuramente ser um desenvolvedor fullstack. Em Jan/2022 tomei a decisão de estudar por conta própria
+            fazendo diversos cursos. Estou cursando Ciências da computação e continuo meus estudos, tendo em mente que estamos sempre em constante aprendizado.
+          </p>
+          <div class="sobre-mim__descricao-buttons">
+            <a href="./assets/WilianCamilo.pdf" download="">
+              <div class="sobre-mim__descricao-buttons-curriculo">
+                <img src="./assets/download-da-nuvem.png" alt="" />
+                <p>Currículo</p>
+              </div>
+            </a>
+            <a
+              href="mailto: gabrielaguaru@yahoo.com.br?subject=Gabi, vim pelo seu portfólio! :)"
+              target="_blank"
+            >
+            </a>
+          </div>
+          
+        </div>
+      </section>
+
+      
+      <section class="experiencia" id="experiencia" data-anime="js-scroll">
+        <h1>Experiência</h1>
+        <div class="experiencia__wrapper">
+          <section class="experiencia__lugares">
+            <ul data-tab="menu">
+              <li>&#128064&#128064</li>
+              <li>Em breve</li>
+              <li>Em breve</li>
+            </ul>
+          </section>
+          <div class="experiencia__descricao" data-tab="content">
+
+            <section data-anime="show-right">
+              <h2>Em busca da minha primeira experiência prificional</h2>
+              <p class="experiencia__descricao-local">Quem sabe na sua empresa?</p>
+              <p>Estou disponível para bater um papo, você pode entrar em contato via e-mail wiliancamilos1@gmail.com &#10024</p>
+            </section>
+
+            <section data-anime="show-right">
+              <h2>Desenvolvedor Front-End</h2>
+              <span>Atual - 2022</span>
+              <p class="experiencia__descricao-local">Projeto Freelancer</p>
+              <p>
+                Em breve!
+              </p>
+            </section>
+
+
+            <section data-anime="show-right">
+              <h2>PDesenvolvedor Front-End</h2>
+              <span>Atual - 2022</span>
+              <p class="experiencia__descricao-local">Projeto Freelancer</p>
+              <p>
+                Em breve!
+              </p>
+            </section>
+        </div>
+        </section>
+        </div>
+      </section>
+
+
+      <section class="projetos" id="projetos" data-anime="js-scroll">
+
+        <h1>Projetos</h1>
+
+        <div class="owl-carousel owl-theme">
+            <div class="projetos__wrapper"> 
+              <section class="projetos__card">
+                  <a href="https://wiliancamilo.github.io/NetWill-proj/" target="_blank">
+                  <img src="/assets/proj1.jpg" alt="" class="projeto-img"/></a>
+                  <h2>NetWill</h2>
+                  <p>
+                    Recriando um dos maiores site de streaming do mundo!
+                  </p>
+                  <span>Tecnologias usadas no projeto: HTML, CSS e JS!</span>
+              </section>
+            </div>
+
+            <div class="projetos__wrapper"> 
+              <section class="projetos__card">
+                  <a href="https://wiliancamilo.github.io/Vingadores-proj/" target="_blank">
+                  <img src="./assets/proj2.png" alt="Imagem do filme vingadores" class="projeto-img"/></a>
+                  <h2>Vingadores</h2>
+                  <p>
+                    Uma dedicatoria aos Vingadores!
+                  </p>
+                  <span>Tecnologias usadas no projeto: HTML e CSS.</span>
+
+              </section>
+            </div>
+
+            <div class="projetos__wrapper"> 
+              <section class="projetos__card">
+                  <a href="https://wiliancamilo.github.io/HomemAranha-proj/" target="_blank">
+                  <img src="/assets/proj3.jpg" alt="" class="projeto-img"/></a>
+                  <h2>Homem-Aranha</h2>
+                  <p>
+                    Dedicatoria ao Homem-Aranha.
+                  </p>
+                  <span>Tecnologias usadas no projeto: HTML, CSS e JS!</span>
+              </section>
+            </div>
+
+            <div class="projetos__wrapper"> 
+              <section class="projetos__card">
+                <a href="https://wiliancamilo.github.io/WilianTurismo-proj/" target="_blank">
+                <img src="/assets/proj4.jpg" alt="" class="projeto-img"/></a>
+                <h2>Turismo</h2>
+                <p>
+                  Meu primeiro projeto! Um site de Turismo.
+                </p>
+                <span>Tecnologias usadas no projeto: HTML e CSS.</span>
+              </section>
+            </div>
+
+        </div>
+      </section>
+
+      <footer>
+        <p>Desenvolvido por</p><a href="https://www.linkedin.com/in/wiliancamilo/" target="_blank"><span> Wilian Camilo</span></a>
+      </footer>
+      
+    </main>
+
+    <script src="./js/script.js" type="module"></script>
+    <script src="./js/modules/vanilla-tilt.min.js"></script>
+    <script src="https://kit.fontawesome.com/e4a94d2db4.js" crossorigin="anonymous"></script>
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/owl.carousel.min.js"></script>
+    <script src="/js/setup.js"></script>
+
+  </body>
+</html>
